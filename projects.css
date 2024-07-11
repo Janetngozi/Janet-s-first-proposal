@@ -13,9 +13,8 @@ body {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
-  background-color: black;
+  background-color: #444140;
   justify-content: center;
-  align-items: center;
 }
 h1 {
   text-align: center;
@@ -25,56 +24,75 @@ h1 {
   margin: 30px 50px;
   padding-left: 50px;
   font-weight: bold;
+  /* display: flex; */
 
-  display: block;
   cursor: pointer;
   width: 300px;
-  border: 1px solid black;
+  position: relative;
+  align-items: center;
 }
 
 .ptj {
-  background-color: aliceblue;
+  background-color: #f7ebe8;
   margin-bottom: 20px;
   height: 50px;
   text-align: center;
   padding-top: 15px;
+  color: #1e1e24;
 
   border: 1px solid black;
 }
 .weather {
-  background-color: blue;
+  background-color: #f7ebe8;
   margin-bottom: 20px;
   height: 50px;
   text-align: center;
   padding-top: 15px;
+  color: #1e1e24;
 }
 .clock {
-  background-color: brown;
+  background-color: #f7ebe8;
   margin-bottom: 20px;
   height: 50px;
   text-align: center;
   padding-top: 15px;
+  color: #1e1e24;
 }
 .survey {
-  background-color: chartreuse;
+  background-color: #f7ebe8;
   margin-bottom: 20px;
   height: 50px;
   text-align: center;
   padding-top: 15px;
+  color: #1e1e24;
 }
 .popup {
-  background-color: peru;
+  background-color: #f7ebe8;
   margin-bottom: 20px;
   height: 50px;
   text-align: center;
   padding-top: 15px;
+  color: #1e1e24;
 }
 .todo {
-  background-color: purple;
+  background-color: #f7ebe8;
   height: 50px;
   text-align: center;
   padding-top: 15px;
+  color: #1e1e24;
 }
 a {
+  color: #1e1e24;
   text-decoration: none;
+}
+button {
+  margin-top: 15px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #f7ebe8;
+  color: white;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
 }

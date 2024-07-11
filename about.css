@@ -16,7 +16,7 @@ body {
   max-width: 1100px;
   margin: auto;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex: 1;
 }
 
@@ -27,4 +27,19 @@ body {
 
 .text-column {
   padding: 20px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgb(65, 155, 211);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
 }
