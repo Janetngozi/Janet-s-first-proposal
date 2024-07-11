@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(./jjjjjjjj.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+  margin: 2rem auto;
+
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+.container {
+  margin: 30px 50px;
+  padding-left: 50px;
+  font-weight: bold;
+
+  display: block;
+  cursor: pointer;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.ptj {
+  background-color: aliceblue;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+
+  border: 1px solid black;
+}
+.weather {
+  background-color: blue;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+.clock {
+  background-color: brown;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+.survey {
+  background-color: chartreuse;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+.popup {
+  background-color: peru;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+.todo {
+  background-color: purple;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+a {
+  text-decoration: none;
+}
